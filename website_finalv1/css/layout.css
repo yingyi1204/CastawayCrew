@@ -1,0 +1,107 @@
+/**************Header Part***************/
+
+.logoimg{
+	position:relative;
+	height:200px;
+	margin: 0% 0% 0% 8%;
+	float:left;
+	
+}
+
+#Sitename{
+	position:relative;
+	font-size:65pt;
+	padding-top:100px;
+	padding-left:380px;
+}
+
+#Sitename a{
+	text-decoration:none;
+	font-family:"PLAYSIR";
+	color: white;
+}
+
+body{
+	margin: 0 0 0 0 ;
+	padding:0 0 0 0 ;
+	background-color:rgba(225,250,247,1.00);
+}
+
+#wrapper{
+	background-color:rgba(225,250,247,1.00);
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+#top{
+	width:100%;
+	position:relative;
+	background-color:rgba(83,233,237,1.00);
+	
+}
+#header{
+	width:80%;
+	margin: 0 auto;
+	position:relative;
+	background:
+	rgba(83,233,237,1.00);
+	display:block;
+
+}
+
+#body{
+	background-color:
+	rgba(174,253,255,1.00);
+	width:80%;
+	margin: 0 auto;
+	display:block;
+	position:relative;
+}
+
+#nav{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(214,255,254,1.00);
+
+}
+
+#content{
+	background-color:
+	rgba(174,253,255,1.00);
+	width:80%;
+	margin: 0 auto;
+	display:block;
+	position:relative;
+}
+#bot{
+	clear:both;
+	width:100%;
+	position:relative;
+	background-color:rgba(100,206,225,1.00);
+	height:45px;
+	display:block;
+}
+
+#footer{
+	clear:both;
+	width: 80%;
+	margin: 0 auto;
+	background-color:rgba(100,206,225,1.00);
+	height:45px;
+	display:block;
+	position:relative;
+}
+
+#footerletters{
+	position:relative;
+	padding-top: 15px;
+	float:left;
+	color:rgba(55,147,140,1.00);
+}
+
+.footerimg{
+	float:right;
+	position:relative;
+	height:45px;
+}

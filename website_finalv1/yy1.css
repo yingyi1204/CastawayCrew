@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: centre;
+	display: block;
+}
+
+.fluidList {
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	clear: none;
+	float: centre;
+	background-color:rgba(211,246,243,1.00);
+}
+#div1 {background:rgba(174,253,255,1.00);
+	margin-left: 0;
+	position:relative;
+	height: auto;
+	width: 100%;
+	}
+#header {background:rgba(83,233,237,1.00);
+	}
+#nav {background:rgba(211,246,243,1.00);
+	text-align:center;
+}
+#div2 {background:rgba(255,214,227,1.00);
+margin-left: 0;
+	position:relative;
+	height: auto;
+	width: 100%;
+}
+#footer {background:rgba(83,233,237,1.00);
+		text-align:end;
+}
+#div3 {background:rgba(174,253,255,1.00);
+		text-align:center;
+}
+#div4 {background:rgba(255,214,227,1.00);
+		text-align:center;
+}
+
+
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 90%;
+	padding-left: 1.225%;
+	padding-right: 1.225%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#div1 {
+	background: rgba(174,253,255,1.00);
+	position: static;
+	height: auto;
+	width: 100%;
+	margin-left: 0;
+	content-align: centre;
+}
+#header {background:rgba(83,233,237,1.00);
+}
+#nav {
+}
+#div2 {background:rgba(255,214,227,1.00);
+}
+#footer {background:rgba(83,233,237,1.00);
+		text-align:end;
+}
+#div3 {background:rgba(174,253,255,1.00);
+position: static;
+	height: auto;
+	width: 100%;
+	margin-left: 0;
+	content-align: centre;
+}
+#div4 {background:rgba(255,214,227,1.00);
+}
+
+
+.hide_tablet {
+display: none;
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+.gridContainer {
+	width: 80%;
+	max-width: 1232px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: auto;
+	clear: none;
+	float: centre;
+	margin-left: 5%;
+	margin-right: 5%;
+	display:inline-flex;
+	margin-top:0;
+}
+#div1 {background:rgba(174,253,255,1.00);
+position: static;
+height: auto;
+width: 100%;
+margin-left: 0;
+}
+#header {background:rgba(83,233,237,1.00);
+}
+#nav {text-align: center;     
+	background-image: none;          
+	border-top-style: double;    
+	 border-top-width: 4px; 
+    padding-top: 20px;}
+
+#nav ul li a {color:rgba(33,204,249,1.00);     	
+			line-height: 60px;     
+			font-size: 40px; 
+}
+#div2 {background:rgba(255,214,227,1.00);
+		float:left;
+}
+#footer {background:rgba(83,233,237,1.00);
+		text-align:centre;
+	
+}
+#div3 {background:rgba(174,253,255,1.00);
+}
+#div4 {background: rgba(255,214,227,1.00); 	
+	
+}
+
+
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}

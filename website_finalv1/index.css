@@ -35,7 +35,8 @@ img, object, embed, video {
 	padding-right: 0.5%;
 	clear: none;
 	float: none;
-	background-color:rgba(211,246,243,1.00);
+	border-radius: 15;
+	background-color: rgba(211,246,243,1.00);
 }
 
 .header {
@@ -45,7 +46,7 @@ img, object, embed, video {
 	background-image: -o-linear-gradient(270deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 }
-.nav {background-color:rgba(180,245,255,1.00);
+.nav {
 }
 .footer {
 	text-align: center;
@@ -53,7 +54,11 @@ img, object, embed, video {
 	background-image: -moz-linear-gradient(270deg,rgba(87,235,247,1.00) 0%,rgba(21,184,244,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(87,235,247,1.00) 0%,rgba(21,184,244,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(87,235,247,1.00) 0%,rgba(21,184,244,1.00) 100%);
+	float: none;
+    display: block;
 }
+
+
 .zeroMargin_mobile {
 margin-left: 0;
 }
@@ -76,7 +81,7 @@ display: none;
 
 .header {background-color:rgba(87,235,247,1.00);
 }
-.nav {background-color:rgba(180,245,255,1.00);
+.nav {
 }
 .footer {background-color:rgba(87,235,247,1.00);
 		text-align:center;
@@ -94,10 +99,10 @@ margin-left: 0;
 @media only screen and (min-width: 769px) {
 
 .gridContainer {
-	width: 90%;
+	width: 99%;
 	max-width: 1232px;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
 	margin: auto;
 	clear: none;
 	float: none;
@@ -106,7 +111,7 @@ margin-left: 0;
 
 .header {background-color:rgba(87,235,247,1.00);
 }
-.nav {background-color:rgba(180,245,255,1.00);
+.nav {
 }
 .footer {background-color:rgba(87,235,247,1.00);
 		text-align:center;

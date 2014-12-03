@@ -47,6 +47,10 @@ img, object, embed, video {
 	background-image: -o-linear-gradient(270deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 	background-image: linear-gradient(180deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 }
+
+.headerimg{
+	width:80%
+}
 .nav {
 }
 .footer {

@@ -40,7 +40,8 @@ img, object, embed, video {
 }
 
 .header {
-	
+	clear: none;
+	float: none;
 	background-image: -webkit-linear-gradient(270deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 	background-image: -moz-linear-gradient(270deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
 	background-image: -o-linear-gradient(270deg,rgba(21,184,244,1.00) 0%,rgba(87,235,247,1.00) 100%);
@@ -100,7 +101,7 @@ margin-left: 0;
 
 .gridContainer {
 	width: 99%;
-	max-width: 1232px;
+	max-width: 2232px;
 	padding-left: 0.5%;
 	padding-right: 0.5%;
 	margin: auto;
@@ -110,6 +111,8 @@ margin-left: 0;
 }
 
 .header {background-color:rgba(87,235,247,1.00);
+		clear: none;
+	float: none;
 }
 .nav {
 }
